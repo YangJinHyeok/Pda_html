@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Easy Magazine</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
+    <!-- navigation -->
+    <nav class="top-nav">
+        <div class="logo-gap">
+            <img class="nav-logo" src="./img/icon.svg">
+            <img class="nav-logo" src="./img/Fylla.svg">
+        </div>
+        <div class="nav-items">
+            <a href="profile.html">WORK</a>
+            <a href="#about">BLOG</a>
+            <button>LET'S TALK</button>
+        </div>
+    </nav>
+  
+    <!-- main text -->
     <div id="section-hero">
       <div id="work">
         WORK<br />
@@ -16,6 +31,8 @@
         </div>
       </div>
     </div>
+  
+    <!-- magazine cards -->
     <div class="border"></div>
     <div id="card">
       <div class="card-content">
@@ -90,5 +107,39 @@
       </div>
       <div id="card-image5"></div>
     </div>
-  </body>
+   
+    <footer class="footer">
+        <div class="column1">
+            <h2>FYLLA</h2>
+            <li>Fylla Digital Agency</li>
+            <li>Main Street 16</li>
+            <li>Lisbon</li>
+        </div>
+        <div class="column2">
+            <h2>Pages</h2>
+            <li>Home</li>
+            <li>SERVICES</li>
+            <li>STUDIO</li>
+            <li>CONTACT</li>
+        </div>
+        <div class="column3">
+            <h2>CMS</h2>
+            <li>WORK</li>
+            <li>WORK SINGLE</li>
+            <li>BLOG</li>
+            <li>BLOG POST</li>
+            <li>SHOP</li>
+            <li>SHOP SINGLE</li>
+        </div>
+        <div class="column3">
+            <h2>Utility Pages</h2>
+            <li>404 ERROR PAGE</li>
+            <li>PASSWORD PROTECTED</li>
+            <li>STYLEGUIDE</li>
+            <li>LICENSING</li>
+            <li>CHANGELOG</li>
+        </div>
+    </footer>
+    
+</body>
 </html>
