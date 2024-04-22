@@ -34,7 +34,7 @@
 
 #card {
   width: 100%;
-  height: 883.75px;
+  height: 600px;
   display: flex;
   justify-content: space-between;
   margin: -1px 0px;
@@ -48,7 +48,7 @@
 
 .card-content {
   width: 25%;
-  height: 753.75px;
+  height: 580px;
   padding: 0px;
   margin: 0px 48px;
 }
