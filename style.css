@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body{
     max-width: 100%;
     flex-direction: row;
@@ -5,7 +6,27 @@ body{
     padding: 48px;
     border: 2px solid black;
     background-color: rgb(253, 251, 245);
+=======
+<<<<<<< HEAD
+body {
+  max-width: 100%;
+  height: 6076.75px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 48px;
+  border: 2px solid black;
+>>>>>>> Stashed changes
 }
+=======
+body{
+    max-width: 100%;
+    height: 4800px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px;
+    border: 2px solid black;
+    background-color: rgb(253, 251, 245);
+>>>>>>> 8e811f487638f9194425c924fe2160d6461de100
 
 @media (max-width: 768px) {
     body {
@@ -288,6 +309,7 @@ button {
 .news-letter{
   
   border-bottom: 1px solid black;
+<<<<<<< Updated upstream
   height: 479px;
   display: flex;
   justify-content: space-between;
@@ -347,4 +369,15 @@ button {
 }
 .news-text3{
   border-bottom: 1px solid black;
+=======
+  position: static;
+  height: 479px;
+  /* 자동 레이아웃 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+>>>>>>> Stashed changes
 }
