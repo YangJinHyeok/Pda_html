@@ -1,10 +1,17 @@
-body {
-  max-width: 100%;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 48px;
-  border: 2px solid black;
-  background-color: rgb(253, 251, 245);
+@font-face {
+  font-family: "Pretendard";
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    max-width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 48px;
+    border: 2px solid black;
+    background-color: rgb(253, 251, 245);
 }
 
 @media (max-width: 768px) {
@@ -14,11 +21,19 @@ body {
 }
 
 .top-nav {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  border-bottom: 1px solid black;
-  padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    /* text/meta */
+    color: rgb(25, 25, 25);
+    font-family: Roboto Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: left;
 }
 
 .nav-logo {
@@ -65,6 +80,12 @@ button {
   justify-content: space-between;
   border-bottom: 1px solid black;
   padding-bottom: 30px;
+}
+.footer h2 {
+  font-family: Pretendard;
+}
+.footer li{
+  font-family: Roboto Mono;
 }
 
 .column1 {
@@ -121,7 +142,6 @@ button {
   line-height: 100%;
   letter-spacing: 0.5px;
   text-align: left;
-  text-transform: uppercase;
   margin: 0px 16px;
 }
 
@@ -141,7 +161,6 @@ button {
   display: flex;
   justify-content: space-between;
   margin: -1px 0px;
-
   border-bottom: 1px solid black;
 }
 
@@ -156,6 +175,7 @@ button {
   height: 580px;
   padding: 0px;
   margin: 0px 48px;
+  font-family: Pretendard;
 }
 
 .card-text {
@@ -170,7 +190,6 @@ button {
   line-height: 110%;
   letter-spacing: 0px;
   text-align: left;
-  text-transform: uppercase;
 }
 
 .card-list {
@@ -212,7 +231,6 @@ button {
   line-height: 100%;
   letter-spacing: 0.5px;
   text-align: left;
-  text-transform: uppercase;
 }
 
 #card-image {
@@ -223,7 +241,8 @@ button {
   top: -48px;
   bottom: -32.25px;
   border-radius: 25px;
-
+  margin-top: 40px;
+  
   background: url(./img/Image.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -238,6 +257,7 @@ button {
   top: -48px;
   bottom: -32.25px;
   border-radius: 25px;
+  margin-top: 40px;
 
   background: url(./img/Image2.svg);
   background-size: cover;
@@ -253,6 +273,7 @@ button {
   top: -48px;
   bottom: -32.25px;
   border-radius: 25px;
+  margin-top: 40px;
 
   background: url(./img/Image3.svg);
   background-size: cover;
@@ -268,6 +289,7 @@ button {
   top: -48px;
   bottom: -32.25px;
   border-radius: 25px;
+  margin-top: 40px;
 
   background: url(./img/Image4.svg);
   background-size: cover;
@@ -283,6 +305,7 @@ button {
   top: -48px;
   bottom: -32.25px;
   border-radius: 25px;
+  margin-top: 40px;
 
   background: url(./img/Image5.svg);
   background-size: cover;
@@ -344,7 +367,6 @@ button {
   line-height: 100%;
   letter-spacing: 0px;
   text-align: left;
-  text-transform: uppercase;
 }
 .news-text3 {
   border-bottom: 1px solid black;
