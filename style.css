@@ -123,3 +123,59 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+#card-image2 {
+  width: 1251px;
+  height: 500px;
+  left: -33px;
+  right: -12px;
+  top: -48px;
+  bottom: -32.25px;
+
+  background: url(./img/Image2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#card-image3 {
+  width: 1251px;
+  height: 500px;
+  left: -33px;
+  right: -12px;
+  top: -48px;
+  bottom: -32.25px;
+
+  background: url(./img/Image3.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#card-image4 {
+  width: 1251px;
+  height: 500px;
+  left: -33px;
+  right: -12px;
+  top: -48px;
+  bottom: -32.25px;
+
+  background: url(./img/Image4.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#card-image5 {
+  width: 1251px;
+  height: 500px;
+  left: -33px;
+  right: -12px;
+  top: -48px;
+  bottom: -32.25px;
+
+  background: url(./img/Image5.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
